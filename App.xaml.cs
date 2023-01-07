@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace RegWindow
+namespace reg_resource
 {
     /// <summary>
     /// Interaction logic for App.xaml

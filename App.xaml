@@ -1,8 +1,8 @@
-﻿<Application x:Class="RegWindow.App"
+﻿<Application x:Class="reg_resource.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:RegWindow"
-             StartupUri="RegWindow.xaml">
+             xmlns:local="clr-namespace:reg_resource"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>

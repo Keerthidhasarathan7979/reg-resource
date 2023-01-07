@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RegWindow
+namespace reg_resource
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,23 @@ namespace RegWindow
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+      
+
+       
+       
+         private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if ((txtname.Text != "") || (txtemail.Text != "") || (txtadd.Text != ""))
+            {
+                MessageBox.Show("Registered successfully", "Registed", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else
+            {
+                 MessageBox.Show("ERROR", "Try Again", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+            }
         }
     }
 }
